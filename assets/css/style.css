@@ -58,7 +58,7 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: #2F4F4F;
@@ -92,13 +92,14 @@ button:focus {
 }
 
 .button.home {
+    position: relative;
     margin: 30px;
     width: 150px;
     background:rgba(132,122,122,0.4);
 }
 
 #return-home {
-    width: 1355px;
+    width: 1343px;
 }
 
 .button:hover {
