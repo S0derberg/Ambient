@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    margin: 0px;
+    color: white;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 80px;
+    padding-top: 85px;
+    letter-spacing: 5px;
+    text-shadow: -2px 0 gray, 0 2px gray, 0px 0 gray, 0 0px gray;
+}
+
+#description {
+    font-size: 17px;
+    text-shadow: -2px 0 gray, 0 1px gray, 0px 0 gray, 0 0px gray;
+    letter-spacing: 2px
+}
+
+#home-description {
+    padding: 20px;
+    letter-spacing: 1px
+}
+
+#volume {
+    padding: 20px;
+    letter-spacing: 1px
+}
+
+#container{
+    margin: 0px;
+}
+
+#background-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#background{
+    min-height: 100%; 
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #background {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #2F4F4F;
+    font-size: 12px;
+}
+
+#button-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+button:focus {
+    outline:0;
+}
+
+.button {
+    margin: 18px;
+    margin-bottom: 10px;
+    width: 150px;
+    background:rgba(132,122,122,0.6);
+    border-radius: 50px;
+    border: solid white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.3s;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.button.home {
+    margin: 30px;
+    width: 150px;
+    background:rgba(132,122,122,0.4);
+}
+
+.button:hover {
+    background-color: #9E9E9E;
+}
+
+#player {
+    position: relative;
+    margin: -20px 505px 83px;
+}
+
+#volume {
+    position: absolute;
+}
