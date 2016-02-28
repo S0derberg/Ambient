@@ -97,6 +97,10 @@ button:focus {
     background:rgba(132,122,122,0.4);
 }
 
+#return-home {
+    width: 1355px;
+}
+
 .button:hover {
     background-color: #9E9E9E;
 }
