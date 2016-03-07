@@ -25,16 +25,14 @@
 				<p id="home-text">Welcome to Ambient.  Select an option below to get the ambience started.</p>
 			</div>
 		</div>
-		<div id="player">
-			<div id="volume">
-  				<input type="range" onchange="changeVol(this.value)" max="1" min="0" step="0.01" data-slider="true" value="0.5" data-slider-highlight="true" data-slider-theme="volume">
-			</div>
+		<div id="volume">
+  			<input type="range" onchange="changeVol(this.value)" max="1" min="0" step="0.01" data-slider="true" value="0.5" data-slider-highlight="true" data-slider-theme="volume">
 		</div>
 
 		<audio autoplay loop src=null></audio>
 
 		<script>
-			document.getElementById('player').style.display = 'none';
+			document.getElementById('volume').style.display = 'none';
 		</script>
 		<div id="button-container">
 			<button class="button" type="button" onclick="getAudio('assets/audio/shower.mp3'),getImage('assets/backgrounds/shower.jpg')">Shower</button>

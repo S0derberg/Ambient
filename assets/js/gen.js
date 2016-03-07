@@ -2,11 +2,11 @@ function getImage(url) {
 	if (url == 'assets/Ambient demo1.jpg') {
 		document.getElementById('home-text').style.display = 'block';
 		document.getElementById('return-home').style.display = 'none';
-		document.getElementById('player').style.display = 'none';
+		document.getElementById('volume').style.display = 'none';
 	} else {
 		document.getElementById('home-text').style.display = 'none';
 		document.getElementById('return-home').style.display = 'block';
-		document.getElementById('player').style.display = 'block';
+		document.getElementById('volume').style.display = 'block';
 	}
 	document.getElementById('background').src=url;
 }

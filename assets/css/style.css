@@ -24,13 +24,9 @@ body {
     letter-spacing: 1px
 }
 
-#volume {
-    padding: 20px;
-    letter-spacing: 1px
-}
-
 #container{
     margin: 0px;
+    position: relative;
 }
 
 #background-overlay {
@@ -58,9 +54,9 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
     width: 100%;
+    bottom: 0px;
     color: #2F4F4F;
     font-size: 12px;
 }
@@ -70,6 +66,7 @@ footer {
     height: 213px;
     overflow-y: scroll;
     margin: 0 auto;
+    position: relative;
 }
 
 button:focus {
@@ -92,27 +89,28 @@ button:focus {
 }
 
 .button.home {
-    position: relative;
-    margin: 30px;
+    position: absolute;
+    margin: 30 auto;
     width: 150px;
     background:rgba(132,122,122,0.4);
 }
 
 #return-home {
-    width: 1343px;
+    margin: 0 auto;
+    position: relative;
+    right: 80px;
 }
 
 .button:hover {
     background-color: #9E9E9E;
 }
 
-#player {
-    position: relative;
-    margin: -20px 505px 83px;
-}
-
 #volume {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 45px;
+    right: 70px;
 }
 
 /*The following is taken from https://css-tricks.com/examples/WebKitScrollbars/ */
